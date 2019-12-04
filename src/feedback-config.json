@@ -1,0 +1,14 @@
+{
+    "images" : "",
+    "outputBucket": "",
+    "jobRoleArn": "",
+    "workforceTeamArn": "",
+    "preLambdaArn": "",
+    "postLambdaArn": "",
+    "projectVersionArn": "",
+    "concurrencyControl": 3,
+    "minimumConfidence": 40,
+    "maxLabelsPerBoundingBoxJob": 2,
+    "maxImagesPerLabelVerificationBatch": 2,
+    "maxLabels": 10
+}
