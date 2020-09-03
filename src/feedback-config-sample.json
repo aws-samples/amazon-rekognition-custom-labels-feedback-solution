@@ -1,0 +1,14 @@
+{
+    "images" : "s3://mybucketname/foldername/",
+    "outputBucket": "my-output-bucket-name",
+    "jobRoleArn": "arn:aws:iam::.....",
+    "workforceTeamArn": "arn:aws:iam::.....",
+    "preLambdaArn": "arn:aws:iam::.....",
+    "postLambdaArn": "arn:aws:iam::.....",
+    "projectVersionArn": "arn:aws:iam::.....",
+    "concurrencyControl": 3,
+    "minimumConfidence": 40,
+    "maxLabelsPerBoundingBoxJob": 2,
+    "maxImagesPerLabelVerificationBatch": 2,
+    "maxLabels": 10
+}
