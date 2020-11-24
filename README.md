@@ -15,7 +15,6 @@ Deploy CloudFormation stack in one of the AWS regions where you are using Amazon
 
 | Region | Launch |
 | ------ | ------ |
-
 | US East (N. Virginia) | [![Deploy Feedback](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=rekognition-custom-labels-feedback&templateURL=https://aws-workshops-us-east-1.s3.amazonaws.com/rekognition-feedback/cf-rekognition-feedback-use1.yaml) |
 
 | EU West (Ireland) | [![Deploy Feedback](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/create/review?stackName=rekognition-custom-labels-feedback&templateURL=https://aws-workshops-eu-west-1.s3.amazonaws.com/rekognition-feedback/cf-rekognition-feedback-euw1.yaml) |
