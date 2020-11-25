@@ -41,8 +41,9 @@ You can run feedback client from terminal with following installed:
 4. Update feedback-config.json in src folder with values for your environment.
 5. Run: python3 start-feedback.py
    
-    This will analyze images using projectVersionArn and start GroundTruth label verification jobs. You should see an ouput command that you can later use to generate manifest file for dataset.
-6. After label verification jobs are complete in GroundTruth run the command you got in step 6.
+    This will analyze images using projectVersionArn and start GroundTruth label verification jobs. You should see an output command that you can later use to generate manifest file for dataset.
+
+6. After label verification jobs are complete in GroundTruth run the command you got in step 5.
    
     This will generate dataset manifest file that you can use to train next version of your model in Amazon Rekognition Custom Labels.
 
