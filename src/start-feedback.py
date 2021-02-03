@@ -846,13 +846,13 @@ class JobScheduler:
                 elabel = noLabelsGroup[elabelKey]
                 item = {}
                 item["source-ref"] = elabel["imageUrl"]
-                item["nolabel"] = {"annotations": [], "image_size": [{"width":elabel["imageWidth"],"depth":3,"height":elabel["imageHeight"]}]}
-                item["nolabel-metadata"] = {"job-name":"labeling-job/nolabels",
-                                                "class-map":{},
-                                                "human-annotated":"yes",
-                                                "objects":[],
-                                                "creation-date":"2019-11-27T10:49:14.678944"
-                                                ,"type":"groundtruth/object-detection"}
+                # item["nolabel"] = {"annotations": [], "image_size": [{"width":elabel["imageWidth"],"depth":3,"height":elabel["imageHeight"]}]}
+                # item["nolabel-metadata"] = {"job-name":"labeling-job/nolabels",
+                #                                 "class-map":{},
+                #                                 "human-annotated":"yes",
+                #                                 "objects":[],
+                #                                 "creation-date":"2019-11-27T10:49:14.678944"
+                #                                 ,"type":"groundtruth/object-detection"}
                 fileText += json.dumps(item) + "\n"
             
             noLabelsManifestFile = "{}/nolabels.json".format(self.inputParameters["noLabelsManifestPath"])
